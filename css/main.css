@@ -40,4 +40,18 @@ body {
 		top: 10%;
 		padding-bottom: 5rem;
 	}
+	.card .card-content .socials i {
+		font-size: 3rem;
+	}
+}
+@media screen and (max-width: 1400px) and (min-width: 600px) {
+	.card .card-content .socials {
+		padding-top: 3rem;
+	}
+	.card .card-content .socials i {
+		padding: 0.5rem;
+	}
+	.card .card-content .card-title {
+		min-height: 4.5rem;
+	}
 }
