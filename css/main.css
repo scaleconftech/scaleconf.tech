@@ -3,3 +3,41 @@ body {
 	padding: 0;
 	background-color: #34727F;
 }
+#particles-js {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.container {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 20%;
+}
+.container .row,
+.container .row .card {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.card .card-reveal .card-title i.fa,
+.card .card-content .card-title i.fa {
+	line-height: unset;
+	font-size: 1.2rem;
+}
+.card .card-content .socials {
+	text-align: center;
+	margin-top: 2rem;
+}
+.card .card-content .socials i {
+	font-size: 1.5rem;
+	padding: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+	.container {
+		top: 10%;
+		padding-bottom: 5rem;
+	}
+}
