@@ -34,13 +34,30 @@ body {
 	font-size: 1.5rem;
 	padding: 1rem;
 }
-.on-sale {
-	background-color: #0F0;			/*Change this ugly color*/
+.card {
+	margin-top: 2rem;
 }
 .cfp {
-	background-color: #F60;			/*Change this ugly color*/
-	color: #FFF;
+	position: absolute;
+	top: -25px;
+	left: -25px;
+	z-index: 1;
 }
+.on-sale {
+	position: absolute;
+	top: -25px;
+	left: 25px;
+	z-index: 1;
+}
+.cfp > a > img {
+	height: 50px;
+	width: 50px;
+}
+.on-sale > a > img {
+	height: 50px;
+	width: 50px;
+}
+
 #family {
 	color: #FFF;
 	text-align: center;
