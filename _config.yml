@@ -1,0 +1,9 @@
+# Site Settings
+title: ScaleConf.tech
+description: ""
+baseurl: "/"
+url: "https://scaleconftech.github.io/"
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']

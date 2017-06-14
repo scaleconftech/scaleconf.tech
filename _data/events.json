@@ -1,0 +1,56 @@
+[
+    {
+        "name": "ScaleConfCo",
+        "country": "Colombia",
+        "image": "colombia.png",
+        "url": "https://scaleconfco.com",
+        "twitter": "https://twitter.com/scaleconfco",
+        "facebook": "https://facebook.com/scaleconfco",
+        "description": "Created by a team of active members of the sotfware community in Colombia, ScaleConf Colombia is a pioneering tech conference on scalability, DevOps and modern software tools and practices in the region.
+        Our main objetive is to level up the community's knowledge, by bringing great speakers from the teams that are paving the way for a global scale in tomorrow's apps and services.",
+        "tickets": "https://tickets-link.com",
+        "cfp": "https://cfp-link.com",
+        "next": "01/01/18"
+    },
+    {
+        "name": "ScaleConf",
+        "country": "South Africa",
+        "image": "south_africa.png",
+        "url": "http://scaleconf.org/",
+        "twitter": "https://twitter.com/scaleconf",
+        "facebook": "https://www.facebook.com/scaleconf",
+        "description": "Each year ScaleConf brings international and local experts together to share their experience scaling websites and services using modern technologies and philosophies.
+        With a mixture of South African and international speakers, each year we bring a diversity of experience and perspective to the stage.",
+        "tickets": "https://tickets-link.com",
+        "cfp": "https://cfp-link.com",
+        "next": "01/01/18"
+    },
+    {
+        "name": "ScaleConf New Zealand",
+        "country": "New Zealand",
+        "image": "new_zealand.png",
+        "url": "http://scaleconf.co.nz/",
+        "twitter": "https://twitter.com/sconfnz",
+        "facebook": "https://www.facebook.com/scaleconfNZ/",
+        "description": "ScaleConf New Zealand is an international technical conference for those who build or maintain web systems. Audience includes developers, engineers and managers from companies of all sizes, researchers, academics, influential business decision makers, CTOs and VPs engaged in the web development and performance ecosystem.",
+        "tickets": "https://tickets-link.com",
+        "cfp": "https://cfp-link.com",
+        "next": "null"
+    },
+    {
+        "name": "dotScale",
+        "country": "France",
+        "image": "dot.png",
+        "url": "https://www.dotscale.io/",
+        "twitter": "https://twitter.com/dotScale",
+        "facebook": "null",
+        "description": "The European Tech Conference on Scalability.
+        We want to bring an unheard-of, TED-like level of quality to tech conferences.
+        Ever been to an average conference with 6 parallel sessions and unprepared speakers? Did you spend the day (or the week!) on your laptop doing something else?
+        If so, you understand the need for a reboot.
+        We will bring you the best speakers in their fields. Invite them on the best stages Paris has to offer. Make you enjoy tech conferences like you never did!",
+        "tickets": "null",
+        "cfp": "https://cfp-link.com",
+        "next": "null"
+    }
+]
