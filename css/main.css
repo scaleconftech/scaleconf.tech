@@ -53,37 +53,43 @@ section.container {
 	position: relative;
 	z-index: 99;
 }
-.container .row,
-.container .row .card {
+section.container .row,
+section.container .row .card {
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
-.card .card-reveal .card-title i.fa,
-.card .card-content .card-title i.fa {
+section .card .card-reveal .card-title i.fa,
+section .card .card-content .card-title i.fa {
 	line-height: unset;
 	font-size: 1.2rem;
 }
-.card .card-content .socials {
+section .card .card-content .socials {
 	text-align: center;
 	margin-top: 1rem;
 }
-.card .card-content .socials i {
+section .card .card-content .socials i {
 	font-size: 1.5rem;
 	padding: 1rem;
 }
-.card {
+section .card {
 	margin-top: 2rem;
 }
-.card .card-action .chip {
+section .card .card-action .chip {
 	background-color: #f0f0f0;
 }
-.card .card-action .chip a {
+section .card .card-action .chip a {
 	margin: 0 0.5rem !important;
 }
-.card .card-action .chip a i {
+section .card .card-action .chip a i {
 	margin-right: 0.5rem;
 }
-
+section .card.horizontal .card-image {
+	border-right: 1px solid rgba(160,160,160,0.2);
+	max-width: 30%;
+}
+section .card.horizontal .card-image img {
+	padding: 10% 0;
+}
 
 footer {
 	background-image: none;
