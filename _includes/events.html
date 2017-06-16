@@ -1,0 +1,54 @@
+{% for event in site.data.events %}
+	<div class="col s12 m4">
+		<div class="card hoverable">
+			{% if event.cfp %}
+				<div class="cfp">
+					<a href={{event.cfp}}>CFP is open</a>
+				</div>
+			{% endif %}
+			{% if event.tickets %}
+				<div class="on-sale">
+					<a href={{event.tickets}}>Tickets on sale</a>
+				</div>
+			{% endif %}
+			{% if event.next %}
+				<div class="next">
+					<a href={{event.url}}>Next: {{event.next}}</a>
+				</div>
+			{% endif %}
+			<div class="card-image waves-effect waves-block waves-light">
+				<img class="activator" src="images/{{event.image}}">
+			</div>
+			<div class="card-content">
+				<span class="card-title activator grey-text text-darken-4">
+					<span>{{ event.name }}</span>
+					<a class="btn-floating waves-effect waves-light teal right">
+						<i class="fa fa-plus" aria-hidden="true"></i>
+					</a>
+				</span>
+				<p class="socials">
+					{% if event.url %}
+						<a href="{{event.url}}"><i class="fa fa-globe teal-text" aria-hidden="true"></i></a>
+					{% endif %}
+					{% if event.twitter %}
+						<a href="{{event.twitter}}"><i class="fa fa-twitter teal-text" aria-hidden="true"></i></a>
+					{% endif %}
+					{% if event.facebook %}
+						<a href="{{event.facebook}}"><i class="fa fa-facebook teal-text" aria-hidden="true"></i></a>
+					{% endif %}
+				</p>
+			</div>
+			<div class="card-reveal">
+				<span class="card-title grey-text text-darken-4">
+					<span></span>
+					<a class="btn-floating waves-effect waves-light teal right">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					</a>
+				</span>
+				{% if event.description %}
+					<p>{{ event.description }}</p>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+{% endfor %}

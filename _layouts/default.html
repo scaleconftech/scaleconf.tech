@@ -1,16 +1,9 @@
 <!DOCTYPE html>
 <html>
-{% include head.html %}
-
-<body>
-	<main>
-		{% include page.html %}
-	</main>
-	<!-- Le Javascript -->
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="js/particles.min.js"></script>
-	<script src="js/materialize.min.js"></script>
-	<script src="js/main.js"></script>
-</body>
-
+	{% include head.html %}
+	<body>
+		{% include header.html %}
+		{{ content }}
+		{% include footer.html %}
+	</body>
 </html>
