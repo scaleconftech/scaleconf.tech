@@ -1,8 +1,8 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #000;
-    font-family: 'Lato', sans-serif;
+	background: #f2f2f2;
+  font-family: 'Lato', sans-serif;
 }
 header {
 	height: 100%;
@@ -11,21 +11,28 @@ header {
 	text-align: center;
 	color: #fff;
 	font-weight: 100;
-	background: url('../images/bg3.png') no-repeat transparent;
-	background-size: cover;
-	background-position: bottom center;
+	background: rgba(137,250,239,1);
+	background: -moz-linear-gradient(top, rgba(137,250,239,1) 0%, rgba(0,150,135,1) 70%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(137,250,239,1)), color-stop(70%, rgba(0,150,135,1)));
+	background: -webkit-linear-gradient(top, rgba(137,250,239,1) 0%, rgba(0,150,135,1) 70%);
+	background: -o-linear-gradient(top, rgba(137,250,239,1) 0%, rgba(0,150,135,1) 70%);
+	background: -ms-linear-gradient(top, rgba(137,250,239,1) 0%, rgba(0,150,135,1) 70%);
+	background: linear-gradient(to bottom, rgba(137,250,239,1) 0%, rgba(0,150,135,1) 70%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#89faef', endColorstr='#009687', GradientType=0 );
 }
 header .container {
-	max-width: 400px;
-	padding-top: 20%;
-	padding-bottom: 20%;
+	max-width: 500px;
+	padding-top: 13%;
+	padding-bottom: 13%;
 	position: relative;
 	z-index: 10;
 }
 header .container h1 {
 	padding: 0;
 	margin: 0;
-	font-size: 2.5rem;
+	font-family: 'Great Vibes', cursive;
+	font-size: 7rem;
+	line-height: 7rem;
 }
 header .container p {
 	font-size: 1rem;
@@ -47,6 +54,27 @@ header .background {
   top: 0;
   left: 0;
   z-index: 0;
+}
+
+svg.triangle-down {
+	fill: rgba(0,150,135,1);
+	stroke: rgba(0,150,135,1);
+	position: relative;
+	top: -1px;
+	z-index: -1;
+}
+svg.triangle-up .shadow,
+svg.triangle-down .shadow {
+	fill: rgba(50, 130, 120, 1);
+	stroke: rgba(50, 130, 120, 1);
+}
+svg.triangle-up {
+	fill: rgba(0,150,135,1);
+	stroke: rgba(0,150,135,1);
+	margin-top: 3rem;
+	position: relative;
+	bottom: -6px;
+	z-index: -1;
 }
 
 section.container {
@@ -93,13 +121,14 @@ section .card.horizontal .card-image img {
 
 footer {
 	background-image: none;
-	background-color: #fff;
-	color: #444;
+	background-color: rgba(0,150,135,1);
+	color: #fff;
 	text-align: center;
-	padding: 2rem 0;
-	margin-top: 4rem;
+	padding: 0 0 2rem;
 	display: block;
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+}
+footer p {
+	margin-top: 0;
 }
 
 @media screen and (max-width: 600px) {
